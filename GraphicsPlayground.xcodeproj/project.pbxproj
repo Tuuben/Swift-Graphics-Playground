@@ -11,6 +11,7 @@
 		98E612BD26FEFAA400B4F0EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E612BC26FEFAA400B4F0EE /* ContentView.swift */; };
 		98E612BF26FEFAA900B4F0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E612BE26FEFAA900B4F0EE /* Assets.xcassets */; };
 		98E612C226FEFAA900B4F0EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E612C126FEFAA900B4F0EE /* Preview Assets.xcassets */; };
+		98E612CB26FEFB2B00B4F0EE /* BezierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E612CA26FEFB2B00B4F0EE /* BezierView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		98E612BE26FEFAA900B4F0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98E612C126FEFAA900B4F0EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98E612C326FEFAA900B4F0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E612CA26FEFB2B00B4F0EE /* BezierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,10 @@
 		98E612B926FEFAA400B4F0EE /* GraphicsPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				98E612C926FEFAFE00B4F0EE /* Graphics */,
 				98E612BA26FEFAA400B4F0EE /* GraphicsPlaygroundApp.swift */,
 				98E612BC26FEFAA400B4F0EE /* ContentView.swift */,
+				98E612CA26FEFB2B00B4F0EE /* BezierView.swift */,
 				98E612BE26FEFAA900B4F0EE /* Assets.xcassets */,
 				98E612C326FEFAA900B4F0EE /* Info.plist */,
 				98E612C026FEFAA900B4F0EE /* Preview Content */,
@@ -67,6 +71,13 @@
 				98E612C126FEFAA900B4F0EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98E612C926FEFAFE00B4F0EE /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98E612BD26FEFAA400B4F0EE /* ContentView.swift in Sources */,
+				98E612CB26FEFB2B00B4F0EE /* BezierView.swift in Sources */,
 				98E612BB26FEFAA400B4F0EE /* GraphicsPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
